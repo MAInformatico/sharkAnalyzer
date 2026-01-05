@@ -1,8 +1,11 @@
-MI_IP = "192.168.1.154"
 
-PCAP_DIR = "/pcaps"
+MI_IP = "your_ip_here"
+
+# Use the repository-local `data` folder (relative path).
+# An absolute path like "/data" points to the root filesystem
+# and likely doesn't exist in the user's environment.
+PCAP_DIR = "data"
 BASELINE_FILE = "data/baseline.json"
 
-# Umbrales
 MAX_PACKETS_FACTOR = 3
 MAX_NEW_IPS = 10

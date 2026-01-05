@@ -3,6 +3,7 @@ from config import *
 from parser import parse_pcap
 from baseline import load_baseline, save_baseline
 from anomaly import detect_anomalies
+import os
 
 def main():
     baseline = load_baseline(BASELINE_FILE)
